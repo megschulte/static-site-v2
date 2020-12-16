@@ -61,12 +61,12 @@ h4:hover {
   font-weight: bold;
   border: 1px solid #f1f1f1;
   position: absolute;
-  top: 55.25%;
+  top: 52.25%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 90.25%;
-  padding: 52px;
+  width: 93%;
+  padding: 34px;
   text-align: center;
 }
 
@@ -141,6 +141,10 @@ ul{
   content: "\2713"
 }
 
+#dotlist li:before {
+  content: bullet;
+}
+
 #navbar li {
     float: right;
 }
@@ -189,6 +193,7 @@ a {
   padding-left: .25rem;
   padding-right: .25rem;
 }
+
 
 .wrapper {
   height: 100vh;
